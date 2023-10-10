@@ -1,0 +1,43 @@
+.pokemon {
+    height: 85vh;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-family: 'Pixelify Sans', cursive;
+
+}
+
+.pokeballButton {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    background: none;
+    padding: 40px 40px 0 40px;
+}
+
+.pokeballImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.pokemonInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.pokemonInfoImg {
+    width: 250px;
+    margin: 20px 0;
+}
+
+.pokemonTitle {
+    margin: 50px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}

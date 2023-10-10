@@ -1,0 +1,10 @@
+//para configurar el compilador
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        //con el comando tsc genera los archivos fuera de la ruta
+        "outDir": "out",
+        "sourceMap": true
+    }
+}

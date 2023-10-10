@@ -1,0 +1,24 @@
+/*para cargar un estilo para el componente */
+.header{
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    place-items: center;
+    background: var(--bg-gradient);
+}
+
+.input{
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 1.2rem;
+    background-color: rgba(121, 121, 121, 0.267);
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    border: none;
+    width: 80vw; /*vw: Relative to 1% of the width  de la pantalla*/
+}
+
+p{
+    font-size: 40px;
+}
